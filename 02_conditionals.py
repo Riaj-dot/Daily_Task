@@ -175,6 +175,7 @@
 
 
                     ### Nested if ###
+
 # age = 16
 # ticket = "yes"
 #
@@ -258,15 +259,23 @@
 # else:
 #     print("Please grow up first.")
 
-
-
-
-
-
-
-
-
-
+# a  = float(input("Enter first number: "))
+# b  = float(input("Enter second number: "))
+# c = float(input("Enter third number: "))
+#
+# if  a >= b:
+#
+#     if a >= c:
+#         print("The largest number: ", a)
+#     else:
+#         print("The largest number: ", c)
+#
+# else:
+#
+#     if b >= c:
+#         print("The largest number: ", b)
+#     else:
+#         print("The largest number: ", c)
 
 
 

@@ -39,13 +39,61 @@
 #     print("Fail.")
 
 
+                        ### Mini Project 4: ATM Machine (Version 1) ##
 
+# balance = 5000
+# user_pin = int(input("Enter you PIN: "))
+#
+# if user_pin != 1234:
+#     print("Incorrect PIN!")
+# else:
+#     print("1. Check Balance!")
+#     print("2. Withdraw Money")
+#
+#     option = input("Please select an option: ")
+#
+#     if option == "1":
+#         print("Your balance is:", balance)
+#     elif option == "2":
+#         amount = float(input("Enter amount to withdraw: "))
+#
+#         if amount <= balance:
+#             balance -= amount
+#             print("Transaction Successful.")
+#             print("Remaining Balance", balance)
+#         else:
+#             print("Insufficient Balance.")
+#
+#     else:
+#         print("Invalid Option")
 
-
-
-
-
-
+# balance = 5000
+#
+# user_pin = int(input("Enter Your PIN: "))
+#
+# if user_pin != 1234:
+#     print("Incorrect PIN.")
+# else:
+#     print("1. Check Balance")
+#     print("2. Withdraw Money")
+#
+#     option = int(input("Please select an option (1/2): "))
+#
+#     if option == 1:
+#         print("Your balance is:", balance)
+#     elif option == 2:
+#         amount = float(input("Enter amount to withdraw: "))
+#
+#         if amount <= balance:
+#             balance = balance - amount
+#
+#             print("Transaction Successful!")
+#             print("Remaining Balance:", balance)
+#         else:
+#             print("Insufficient Balance!")
+#
+#     else:
+#         print("Invalid Option!")
 
 
 

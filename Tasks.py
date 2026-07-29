@@ -103,24 +103,41 @@
 # else:
 #     print("শর্ত পূরণ হয়নি।")
 
-num1 = int(input("Write the first number: "))
-num2 = int(input("Write the second number:"))
+# num1 = int(input("Write the first number: "))
+# num2 = int(input("Write the second number:"))
+#
+# if (num1 % 2 == 0 and num2 % 2== 0) or (num1 > 100 or num2 > 100):
+#     print("The condition is fulfilled.")
+# else:
+#     print("The condition is not fulfilled.")
 
-if (num1 % 2 == 0 and num2 % 2== 0) or (num1 > 100 or num2 > 100):
-    print("The condition is fulfilled.")
+balance = 5000
+
+user_pin = int(input("Enter Your PIN: "))
+
+if user_pin != 1234:
+    print("Incorrect PIN.")
 else:
-    print("The condition is not fulfilled.")
+    print("1. Check Balance")
+    print("2. Withdraw Money")
 
+    option = int(input("Please select an option (1/2): "))
 
+    if option == 1:
+        print("Your balance is:", balance)
+    elif option == 2:
+        amount = float(input("Enter amount to withdraw: "))
 
+        if amount <= balance:
+            balance = balance - amount
 
+            print("Transaction Successful!")
+            print("Remaining Balance:", balance)
+        else:
+            print("Insufficient Balance!")
 
-
-
-
-
-
-
+    else:
+        print("Invalid Option!")
 
 
 
