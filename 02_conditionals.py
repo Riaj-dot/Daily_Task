@@ -277,10 +277,6 @@
 #     else:
 #         print("The largest number: ", c)
 
-
-
-
-
 # age = 20
 # ticket = "no"
 #
